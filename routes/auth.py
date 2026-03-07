@@ -15,7 +15,7 @@ def register():
     data = request.get_json(silent=True) or {}
 
     # FIX: Paksa username selalu lowercase saat disimpan.
-    # Sebelumnya: "kyupii" dan "kyupiI" dianggap user berbeda di DB,
+    # Sebelumnya: "abc213" dan "Abc213" dianggap user berbeda di DB,
     # tapi keduanya lolos cek admin karena .lower() — dua orang bisa jadi admin.
     # Sekarang: username di-lowercase dulu sebelum apapun dicek/disimpan.
     username = data.get("username", "").strip().lower()
