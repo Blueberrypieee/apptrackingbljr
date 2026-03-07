@@ -5,3 +5,5 @@ werkzeug
 pypdf
 python-docx
 requests
+flask-limiter
+gunicorn
