@@ -1,7 +1,0 @@
-flask
-flask-sqlalchemy
-python-dotenv
-werkzeug
-pypdf
-python-docx
-requests
