@@ -12,7 +12,7 @@ Dibangun dengan Flask (backend) + Vanilla JS (frontend), AI-powered by DeepSeek 
 ### 1. Register Akun
 - Buka aplikasi, klik tab **Register**
 - Isi username dan password (minimal 6 karakter)
-- Username otomatis disimpan lowercase — `Kyupii` dan `kyupii` dianggap sama
+- Username otomatis disimpan lowercase — `abc123` dan `Abc123` dianggap sama
 - Klik **Register**, langsung masuk ke dashboard
 
 ### 2. Login
